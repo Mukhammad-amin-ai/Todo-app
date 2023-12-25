@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rosario:wght@400;700&display=swap");
-/* font-family: 'Rosario', sans-serif; */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 .todo {
@@ -162,12 +162,154 @@ p {
     height: auto;
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
-.start-container{
+.start-container {
     width: 90%;
     height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.image {
+    width: 50%;
+    height: 370px;
+}
+.image img {
+    width: 100%;
+}
+
+.text {
+    width: 45%;
+    height: 370px;
+}
+
+.text .title {
+    width: 80%;
+    height: 116px;
+    margin-top: 30px;
+}
+.text .title h2 {
+    width: 100%;
+    text-align: start;
+    color: #000;
+    font-family: "Rosario", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text button {
+    width: 232px;
+    height: 58px;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rosario", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #ff4f5a;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 258px;
+    border-top: 1px solid #ff4f5a;
+    margin-top: 172px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-left {
+    width: 25%;
+    height: auto;
+}
+
+.top {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .logo {
+    width: 56px;
+    height: 56px;
+}
+
+.top .logo img {
+    width: 100%;
+}
+
+.top .f-text {
+    width: 250px;
+    height: 100%;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 62px;
+}
+
+.bottom h3 {
+    color: #000;
+    font-family: "Rosario", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom h4 {
+    color: #737373;
+    font-family: "Rosario", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.f-right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    width: auto;
+    height: auto;
+}
+
+li:nth-child(1) {
+    color: #ff4f5a;
+    font-family: "Rosario", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+li {
+    color: #737373;
+    font-family: "Rosario", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    padding: 5px;
 }
