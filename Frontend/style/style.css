@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosario:wght@400;700&display=swap");
+/* font-family: 'Rosario', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.auth {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth button {
+    color: #ff4f5a;
+    font-family: "Rosario" sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.auth button:nth-child(2) {
+    color: black;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    width: 571px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Rosario", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.step-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.step-container {
+    width: 1072px;
+    height: auto;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Rosario", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.item {
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.item .image {
+    width: 109px;
+    height: 109px;
+}
+
+.item .image img {
+    width: 100%;
+}
+
+p {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.get-started {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.start-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
